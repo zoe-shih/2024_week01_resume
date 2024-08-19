@@ -7,27 +7,28 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="all.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>resume</title>
 </head>
 <body>
     <header class="container">
-        <h1 class="banner-title">
+        <h1 class="banner-title" data-aos="fade-down">
             VITO
         </h1>
-        <img class="banner-img" src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week1/vito.png?raw=true" alt="">
-        <h2 class="banner-title w-50 ml-auto">
+        <img class="banner-img" data-aos="fade-down" src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week1/vito.png?raw=true" alt="">
+        <h2 class="banner-title w-50 ml-auto" data-aos="fade-up">
             RESUME
         </h2>
     </header>
     <div class="introduce">
         <div class="container">
-            <p class="w-50 ml-auto">
+            <p class="w-50 ml-auto" data-aos="fade-left">
                 I'm Vito, a UI Designer with 5+ years of experience. I create visually appealing interfaces for web and mobile apps. Proficient in Sketch, Adobe XD, Figma, HTML, CSS, and JavaScript. I enjoy collaborating with others to create high-quality products.
             </p>
         </div>
     </div>
     <div class="container about">
-        <ul class="about-list w-50">
+        <ul class="about-list w-50" data-aos="fade-right">
             <li class="mb-10">
                 <h3 class="about-item-title mb-4">Vito Evans</h3>
                 <ul>
@@ -73,6 +74,9 @@
         </div>  
     </div>
     
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+     AOS.init();
+    </script>
 </body>
 </html>
